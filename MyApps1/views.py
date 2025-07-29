@@ -20,3 +20,5 @@ def home_page_view3(request):
 	print('This line printed by home_page_view3 function...')
 	return HttpResponse('<h1>Hello this is from home page view3 </h1><hr />')
 
+def pycharmview(req):
+	return HttpResponse("<h1>Hello from Pycharm</h1><hr />")
